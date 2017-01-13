@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/activity_clbase"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.coordinatelayouttest.base.CLBaseActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="300dp"
+        android:background="#FFCC00"
+        android:text="Hello"
+        app:layout_behavior="com.example.coordinatelayouttest.base.BaseBehavior"
+        />
+
+    <com.example.coordinatelayouttest.base.TempView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="300dp"
+        android:background="#FF0000"
+        android:text="Hello"
+        />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
