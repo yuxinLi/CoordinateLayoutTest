@@ -17,6 +17,10 @@
         </activity>
         <activity android:name=".base.CLBaseActivity">
         </activity>
+        <activity android:name=".advanced.AdvancedActivity">
+        </activity>
+        <activity android:name=".advanced.CollapsActivity">
+        </activity>
     </application>
 
 </manifest>
